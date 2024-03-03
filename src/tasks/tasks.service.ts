@@ -1,6 +1,5 @@
 import { TaskStatus } from './task-status.enum';
 
-import { v4 as uuid } from 'uuid';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { CreateTaskDto } from './dto/create-task.dto';
 import { InjectRepository } from '@nestjs/typeorm';
